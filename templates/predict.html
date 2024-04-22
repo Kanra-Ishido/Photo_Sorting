@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/predict.css">
+    <title>人工知能デザイン演習1_最終課題</title>
+</head>
+<body>
+    <h1>Selected Category: {{ category }}</h1>
+    <div>
+        <img src="{{ first_photo }}" width="300px">
+        <a href="{{ first_photo }}" download>Download the 1st candidate photo</a>
+        <img src="{{ second_photo }}" width="300px">
+        <a href="{{ second_photo }}" download>Download the 2nd candidate photo</a>
+        <img src="{{ third_photo }}" width="300px">
+        <a href="{{ third_photo }}" download>Download the 3rd candidate photo</a>
+        <img src="{{ fourth_photo }}" width="300px">
+        <a href="{{ fourth_photo }}" download>Download the 4th candidate photo</a>
+        <img src="{{ fifth_photo }}" width="300px">
+        <a href="{{ fifth_photo }}" download>Download the 5th candidate photo</a>
+    </div>
+    <form action="/" method="get">
+        <button type="submit">Go back</button>
+    </form>
+</body>
+<footer>©2023 Kanra Ishido<footer>
+</html>

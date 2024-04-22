@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kanra_no_macbook/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3%E6%BC%94%E7%BF%921/%E7%AC%AC%E5%85%AD%E5%9B%9E%E7%9B%AE/%E6%9C%80%E7%B5%82%E8%AA%B2%E9%A1%8C/mlruns/620236498866856550/70346a3b83854551a8b08291ecec699e/artifacts
+end_time: 1699478379878
+entry_point_name: ''
+experiment_id: '620236498866856550'
+lifecycle_stage: active
+run_id: 70346a3b83854551a8b08291ecec699e
+run_name: ResNet_16_Adagrad
+run_uuid: 70346a3b83854551a8b08291ecec699e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699478240858
+status: 3
+tags: []
+user_id: kanra_no_macbook

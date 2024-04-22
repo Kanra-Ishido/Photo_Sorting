@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>人工知能デザイン演習1_最終課題</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Shall I choose your photos?</h1>
+
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <div class="radio-group">
+                <input type="radio" name="category" value="food" id="food" required>
+                <label for="food">Food</label>
+                <input type="radio" name="category" value="friend" id="friend">
+                <label for="friend">Friend</label>
+                <input type="radio" name="category" value="id_photo" id="id_photo">
+                <label for="id_photo">ID photo</label>
+                <input type="radio" name="category" value="scenery" id="scenery">
+                <label for="scenery">Scenery</label>
+                <input type="radio" name="category" value="study" id="study">
+                <label for="study">Study</label><br>
+            </div>
+
+            <input type="file" class="photo-input" name="files" accept="image/jpeg, image/jpg" multiple required>
+            <input type="submit" class="submit-btn" value="Judgment!">
+        </form>
+    </div>
+</body>
+
+<footer>©2023 Kanra Ishido<footer>
+</html>

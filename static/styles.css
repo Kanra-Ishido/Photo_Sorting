@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ecf0f1;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.radio-custom {
+    display: none;
+}
+
+.radio-custom + label {
+    display: inline-block;
+    background-color: #bdc3c7;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+}
+
+.radio-custom:checked + label {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.radio-custom:focus + label {
+    outline: 1px dotted #000;
+}
+
+.radio-custom + label:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    background-color: #ecf0f1;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.radio-custom:checked + label:before {
+    background-color: #2980b9;
+}
+
+.file-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #ecf0f1;
+    text-align: center;
+    cursor: pointer;
+    color: #495057;
+}
+
+.file-input:hover {
+    background-color: #bdc3c7;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 30px; 
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    .radio-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .radio-custom + label {
+        display: block;
+        position: static;
+        margin-left: 0;
+        padding-left: 1.5em;
+    }
+
+    .radio-custom {
+        display: inline-block;
+        position: absolute;
+        margin-left: -1.5em;
+        vertical-align: middle;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .radio-group {
+        display: block;
+    }
+
+    .radio-custom + label {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+    }
+
+    .radio-custom {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    .radio-custom + label:before {
+        content: none;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+}

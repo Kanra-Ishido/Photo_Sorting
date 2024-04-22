@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/kanra_no_macbook/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3%E6%BC%94%E7%BF%921/%E7%AC%AC%E5%85%AD%E5%9B%9E%E7%9B%AE/%E6%9C%80%E7%B5%82%E8%AA%B2%E9%A1%8C/mlruns/953669479892407279/7d06da223596429a8c4ef80bfd4749c1/artifacts
+end_time: 1699476868010
+entry_point_name: ''
+experiment_id: '953669479892407279'
+lifecycle_stage: active
+run_id: 7d06da223596429a8c4ef80bfd4749c1
+run_name: ResNet_8_Adam
+run_uuid: 7d06da223596429a8c4ef80bfd4749c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699476731303
+status: 3
+tags: []
+user_id: kanra_no_macbook
